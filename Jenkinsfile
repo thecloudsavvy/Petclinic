@@ -60,8 +60,7 @@ pipeline {
                    withDockerRegistry(credentialsId: '58be877c-9294-410e-98ee-6a959d73b352', toolName: 'docker') {
                         
                         sh "docker build -t image1 ."
-                        sh "docker tag image1 adijaiswal/thecloudsavvy:latest "
-                        sh "docker push adijaiswal/thecloudsavvy:latest "
+                        sh "docker push thecloudsavvy/simpleweb:latest "
                     }
                 }
             }
@@ -69,7 +68,7 @@ pipeline {
         
         stage("TRIVY"){
             steps{
-                sh " trivy image adijaiswal/thecloudsavvy:latest"
+                sh " trivy image thecloudsavvy/simpleweb:latest "
             }
         }
         
