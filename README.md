@@ -33,6 +33,10 @@ You can then access petclinic here: [http://localhost:8080/](http://localhost:80
 
 <img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
 
+![relative](./petclinic%20(1).png)
+
+![relative](./Sonarqube.png)
+
 ## In case you find a bug/suggested improvement for Spring Petclinic
 
 Our issue tracker is available here: https://github.com/spring-petclinic/spring-framework-petclinic/issues
